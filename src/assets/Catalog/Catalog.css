@@ -1,0 +1,18 @@
+.catalog__inner {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.catalog__title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.catalog__body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}

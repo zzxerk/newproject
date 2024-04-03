@@ -1,0 +1,39 @@
+.catalog__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+}
+
+.item__img {
+    border-radius: 10px 10px 0 0;
+}
+
+.item__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    padding: 0 8px;
+}
+
+.item__price {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #222;
+    padding: 0 8px;
+}
+
+.item__btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FFC42E;
+    color: #222;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
